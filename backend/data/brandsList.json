@@ -1,0 +1,1838 @@
+{
+    "0": {
+        "categoria1": "Almacen",
+        "categoria3": "Aceite de canola",
+        "envase": "Aerosol",
+        "marca": "3D"
+    },
+    "1": {
+        "categoria1": "Bebidas",
+        "categoria3": "Aceite de Girasol",
+        "envase": "Barra",
+        "marca": "5 Hispanos"
+    },
+    "2": {
+        "categoria1": "Lacteos",
+        "categoria3": "Aceite de Maiz",
+        "envase": "Bidón",
+        "marca": "51"
+    },
+    "3": {
+        "categoria1": "Limpieza",
+        "categoria3": "Aceite de Oliva",
+        "envase": "Blister",
+        "marca": "7 up"
+    },
+    "4": {
+        "categoria1": "Perfumeria",
+        "categoria3": "Aceites Mezcla",
+        "envase": "Bolsa",
+        "marca": "Ace"
+    },
+    "5": {
+        "categoria3": "Aceto Balsamico",
+        "envase": "Botella de plastico",
+        "marca": "Actimel"
+    },
+    "6": {
+        "categoria3": "Acondicionador",
+        "envase": "Botella de plastico con dosificador",
+        "marca": "Activia"
+    },
+    "7": {
+        "categoria3": "Acondicionador para Bebes",
+        "envase": "Botella de vidrio",
+        "marca": "Adelgamate"
+    },
+    "8": {
+        "categoria3": "Aderezos",
+        "envase": "Caja",
+        "marca": "Ades"
+    },
+    "9": {
+        "categoria3": "Afeitadora",
+        "envase": "Caja de cartón",
+        "marca": "Adidas"
+    },
+    "10": {
+        "categoria3": "After Shave",
+        "envase": "Caja de carton",
+        "marca": "Adler"
+    },
+    "11": {
+        "categoria3": "Agua",
+        "envase": "Caja de carton + bolsa",
+        "marca": "Aguila"
+    },
+    "12": {
+        "categoria3": "Agua de Hierbas",
+        "envase": "Envase de hojalata",
+        "marca": "Air Wick"
+    },
+    "13": {
+        "categoria3": "Agua Isotonica",
+        "envase": "Envase de plastico",
+        "marca": "Aire Puro"
+    },
+    "14": {
+        "categoria3": "Agua Saborizada",
+        "envase": "Envase de plástico",
+        "marca": "Ala"
+    },
+    "15": {
+        "categoria3": "Agua Tonica",
+        "envase": "Envase de vidrio",
+        "marca": "Alco"
+    },
+    "16": {
+        "categoria3": "Alcohol en Gel",
+        "envase": "Envoltorio de papel",
+        "marca": "Aleluya"
+    },
+    "17": {
+        "categoria3": "Alimento para bebes",
+        "envase": "Envoltorio individual",
+        "marca": "Algabo"
+    },
+    "18": {
+        "categoria3": "Antisepticos",
+        "envase": "Frasco de Vidrio",
+        "marca": "Alicante"
+    },
+    "19": {
+        "categoria3": "Apositos",
+        "envase": "Lata",
+        "marca": "All Bran"
+    },
+    "20": {
+        "categoria3": "Apresto",
+        "envase": "Mini Aerosol",
+        "marca": "Almacen del sur"
+    },
+    "21": {
+        "categoria3": "Arroz",
+        "envase": "Otro",
+        "marca": "Almohaditas 3 Arroyos"
+    },
+    "22": {
+        "categoria3": "Arroz Integral",
+        "envase": "Papel",
+        "marca": "Altavia"
+    },
+    "23": {
+        "categoria3": "Arroz listo",
+        "envase": "Paquete",
+        "marca": "Always"
+    },
+    "24": {
+        "categoria3": "Autobrillo para pisos",
+        "envase": "Paquete individual",
+        "marca": "Amanda"
+    },
+    "25": {
+        "categoria3": "Autobronceante",
+        "envase": "Plastico",
+        "marca": "Amargo"
+    },
+    "26": {
+        "categoria3": "Avenas",
+        "envase": "Pomo",
+        "marca": "Amorin"
+    },
+    "27": {
+        "categoria3": "Azucar",
+        "envase": "Pote de plastico",
+        "marca": "Apostoles"
+    },
+    "28": {
+        "categoria3": "Azucar impalpable",
+        "envase": "Pulverizador",
+        "marca": "Aquafresh"
+    },
+    "29": {
+        "categoria3": "Azucar light",
+        "envase": "Roll On",
+        "marca": "Aquarius"
+    },
+    "30": {
+        "categoria3": "Azucar Negro",
+        "envase": "Sachet",
+        "marca": "Arco Iris"
+    },
+    "31": {
+        "categoria3": "Bajo en sodio",
+        "envase": "Sifon de plastico",
+        "marca": "Arcoa"
+    },
+    "32": {
+        "categoria3": "Barbacoa",
+        "envase": "Sobre",
+        "marca": "Arcor"
+    },
+    "33": {
+        "categoria3": "Barra de cereal",
+        "envase": "Spray",
+        "marca": "Ariel"
+    },
+    "34": {
+        "categoria3": "Bizcochuelos",
+        "envase": "Tetrapak",
+        "marca": "Aritos 3 Arroyos"
+    },
+    "35": {
+        "categoria3": "Bronceadores",
+        "envase": "Vaso de plastico chico",
+        "marca": "Arlistan"
+    },
+    "36": {
+        "categoria3": "Brownies",
+        "envase": "Vaso de plastico grande",
+        "marca": "Arytza"
+    },
+    "37": {
+        "categoria3": "Cacao",
+        "marca": "Avena 3 Arroyos"
+    },
+    "38": {
+        "categoria3": "Cafe con leche",
+        "marca": "Awafrut"
+    },
+    "39": {
+        "categoria3": "Cafe descafeinado",
+        "marca": "Axe"
+    },
+    "40": {
+        "categoria3": "Cafe en capsulas",
+        "marca": "Ayudin"
+    },
+    "41": {
+        "categoria3": "Cafe en Grano",
+        "marca": "Azucarados 3 Arroyos"
+    },
+    "42": {
+        "categoria3": "Cafe en Saquito",
+        "marca": "Babelito"
+    },
+    "43": {
+        "categoria3": "Cafe Expreso",
+        "marca": "Baby Basic"
+    },
+    "44": {
+        "categoria3": "Cafe Instantaneo",
+        "marca": "Badoit"
+    },
+    "45": {
+        "categoria3": "Cafe Molido",
+        "marca": "Baggio"
+    },
+    "46": {
+        "categoria3": "Caldos",
+        "marca": "Bahia"
+    },
+    "47": {
+        "categoria3": "Capuccino",
+        "marca": "Banana Boat"
+    },
+    "48": {
+        "categoria3": "Cepillos Dentales",
+        "marca": "Barilla"
+    },
+    "49": {
+        "categoria3": "Cera para piso",
+        "marca": "Barny"
+    },
+    "50": {
+        "categoria3": "Cereales",
+        "marca": "Barra de Cereal 3 Arroyos"
+    },
+    "51": {
+        "categoria3": "Chimichurri",
+        "marca": "Barrocutina"
+    },
+    "52": {
+        "categoria3": "Chizitos",
+        "marca": "BC La Campagnola"
+    },
+    "53": {
+        "categoria3": "Chocolatada",
+        "marca": "Belarom"
+    },
+    "54": {
+        "categoria3": "Cobertura",
+        "marca": "Belfruit"
+    },
+    "55": {
+        "categoria3": "Coco Rayado",
+        "marca": "Bells"
+    },
+    "56": {
+        "categoria3": "Colonias",
+        "marca": "Best Bran 3 Arroyos"
+    },
+    "57": {
+        "categoria3": "Coloracion Permanente",
+        "marca": "Big Ben"
+    },
+    "58": {
+        "categoria3": "Condimentos",
+        "marca": "Bimbo"
+    },
+    "59": {
+        "categoria3": "Confitura de Frutas",
+        "marca": "Bio Clin"
+    },
+    "60": {
+        "categoria3": "Conserva de Pescado",
+        "marca": "Biolive"
+    },
+    "61": {
+        "categoria3": "Conservas de Carne",
+        "marca": "Black Fire"
+    },
+    "62": {
+        "categoria3": "Conservas de Frutas",
+        "marca": "Blancaflor"
+    },
+    "63": {
+        "categoria3": "Conservas de Tomate",
+        "marca": "Blancanuez"
+    },
+    "64": {
+        "categoria3": "Conservas de vegetales",
+        "marca": "Blem"
+    },
+    "65": {
+        "categoria3": "Cotonetes",
+        "marca": "Blue Patna"
+    },
+    "66": {
+        "categoria3": "Crema Chantilly",
+        "marca": "Bocaditos Granix"
+    },
+    "67": {
+        "categoria3": "Crema de avellanas",
+        "marca": "Bonafide"
+    },
+    "68": {
+        "categoria3": "Crema de Leche",
+        "marca": "Bonaqua"
+    },
+    "69": {
+        "categoria3": "Crema para peinar",
+        "marca": "Bonduelle"
+    },
+    "70": {
+        "categoria3": "Cremas",
+        "marca": "Brasso"
+    },
+    "71": {
+        "categoria3": "Curadores de piso",
+        "marca": "Brio"
+    },
+    "72": {
+        "categoria3": "Desinfectante de Ambientes",
+        "marca": "Buitoni"
+    },
+    "73": {
+        "categoria3": "Desodorante absorbe humedad",
+        "marca": "Bun"
+    },
+    "74": {
+        "categoria3": "Desodorante antihumedad",
+        "marca": "Cañuelas"
+    },
+    "75": {
+        "categoria3": "Desodorante Antitranspirante",
+        "marca": null
+    },
+    "76": {
+        "categoria3": "Desodorante de Ambiente",
+        "marca": "Cabrales"
+    },
+    "77": {
+        "categoria3": "Desodorante de ambiente para autos",
+        "marca": "Cachamai"
+    },
+    "78": {
+        "categoria3": null,
+        "marca": "Cachamate"
+    },
+    "79": {
+        "categoria3": "Desodorante en Gel y Difusores",
+        "marca": "Cada dia"
+    },
+    "80": {
+        "categoria3": "Desodorante para inodoros",
+        "marca": "Cafe Martinez"
+    },
+    "81": {
+        "categoria3": "Desodorante pédico",
+        "marca": "Calipso"
+    },
+    "82": {
+        "categoria3": null,
+        "marca": "Calsa"
+    },
+    "83": {
+        "categoria3": "Detergente Lavavajilla",
+        "marca": "Campbells"
+    },
+    "84": {
+        "categoria3": "Dulce de Leche",
+        "marca": "Canale"
+    },
+    "85": {
+        "categoria3": "Edulcorante en Polvo",
+        "marca": null
+    },
+    "86": {
+        "categoria3": "Edulcorante Liquido",
+        "marca": "Capilatis"
+    },
+    "87": {
+        "categoria3": "Enjuague Bucal",
+        "marca": "Caracas"
+    },
+    "88": {
+        "categoria3": "Esencias de vainilla",
+        "marca": "Carefree"
+    },
+    "89": {
+        "categoria3": "Especias",
+        "marca": "Carioca"
+    },
+    "90": {
+        "categoria3": "Espuma de afeitar",
+        "marca": "Casalta"
+    },
+    "91": {
+        "categoria3": "Fecula",
+        "marca": "Casancrem"
+    },
+    "92": {
+        "categoria3": "Fecula de maiz",
+        "marca": "Castello"
+    },
+    "93": {
+        "categoria3": "Feculas",
+        "marca": "CBSE"
+    },
+    "94": {
+        "categoria3": "Fideos cortos",
+        "marca": "Cedul"
+    },
+    "95": {
+        "categoria3": "Fideos largos",
+        "marca": "Celestial Seasonings"
+    },
+    "96": {
+        "categoria3": "Filtros de cafe",
+        "marca": "Celusal"
+    },
+    "97": {
+        "categoria3": "Flan",
+        "marca": "Cepita"
+    },
+    "98": {
+        "categoria3": "Flanes",
+        "marca": "Ceramicol"
+    },
+    "99": {
+        "categoria3": "Fosforos",
+        "marca": "Cereal Mix"
+    },
+    "100": {
+        "categoria3": "Fragancia",
+        "marca": "Cereales Granix"
+    },
+    "101": {
+        "categoria3": "Frutas secas",
+        "marca": "Ceuta"
+    },
+    "102": {
+        "categoria3": "Gaseosa Cola",
+        "marca": "Chamana"
+    },
+    "103": {
+        "categoria3": "Gaseosa Lima-Limon",
+        "marca": "Chango"
+    },
+    "104": {
+        "categoria3": "Gaseosa Naranja",
+        "marca": "Chantaine"
+    },
+    "105": {
+        "categoria3": "Gaseosa pomelo",
+        "marca": "Cheetos"
+    },
+    "106": {
+        "categoria3": "Gel para el pelo",
+        "marca": "Choco Krispies"
+    },
+    "107": {
+        "categoria3": "Gelatina",
+        "marca": "Choco Pops"
+    },
+    "108": {
+        "categoria3": "Guantes y Articulos de Goma",
+        "marca": "Chocoflakes Granix"
+    },
+    "109": {
+        "categoria3": "Harina comun",
+        "marca": "Chocolino"
+    },
+    "110": {
+        "categoria3": "Harina de semola",
+        "marca": "Chuker"
+    },
+    "111": {
+        "categoria3": "Harinas Leudantes",
+        "marca": "Cif"
+    },
+    "112": {
+        "categoria3": "Helado",
+        "marca": "Cindor"
+    },
+    "113": {
+        "categoria3": "Jabon de glicerina",
+        "marca": "Citric"
+    },
+    "114": {
+        "categoria3": "Jabon de Tocador",
+        "marca": "Clean and Clear"
+    },
+    "115": {
+        "categoria3": "Jabon en pan para Ropa",
+        "marca": "Clear"
+    },
+    "116": {
+        "categoria3": "Jabon en polvo",
+        "marca": "Clinerol"
+    },
+    "117": {
+        "categoria3": "Jabon líquido",
+        "marca": "Clinsy"
+    },
+    "118": {
+        "categoria3": "Jabon liquido para el cuerpo",
+        "marca": "Cobra"
+    },
+    "119": {
+        "categoria3": "Jabon liquido para manos",
+        "marca": "Coca Cola"
+    },
+    "120": {
+        "categoria3": "Jabon liquido ropa oscura",
+        "marca": "Cocinero"
+    },
+    "121": {
+        "categoria3": "Jalea de Membrillo",
+        "marca": "Coffe-mate"
+    },
+    "122": {
+        "categoria3": "Jugo de Limon",
+        "marca": "Colavita"
+    },
+    "123": {
+        "categoria3": "Jugo de limon concentrado",
+        "marca": "Colgate"
+    },
+    "124": {
+        "categoria3": "Jugo para Diluir",
+        "marca": "Comfort"
+    },
+    "125": {
+        "categoria3": "Jugos listos",
+        "marca": "Copisi"
+    },
+    "126": {
+        "categoria3": "Ketchup",
+        "marca": "Corazon"
+    },
+    "127": {
+        "categoria3": "Lavandina",
+        "marca": "Cormillot"
+    },
+    "128": {
+        "categoria3": "Lavandina para Ropa",
+        "marca": "Crush"
+    },
+    "129": {
+        "categoria3": "Lavavajilla Automatico",
+        "marca": "Cruz de Malta"
+    },
+    "130": {
+        "categoria3": "Leche",
+        "marca": "Cumana"
+    },
+    "131": {
+        "categoria3": "Leche condensada",
+        "marca": "Cunnington"
+    },
+    "132": {
+        "categoria3": "Leche Cultivada",
+        "marca": "Curitas"
+    },
+    "133": {
+        "categoria3": "Leche de cabra en polvo",
+        "marca": "Danette"
+    },
+    "134": {
+        "categoria3": "Leche en Polvo",
+        "marca": "Danica"
+    },
+    "135": {
+        "categoria3": "Leche en polvo para bebe",
+        "marca": "Danonino"
+    },
+    "136": {
+        "categoria3": "Leche para Bebe",
+        "marca": "Darama"
+    },
+    "137": {
+        "categoria3": "Legumbres",
+        "marca": "De Cecco"
+    },
+    "138": {
+        "categoria3": "Levaduras ",
+        "marca": "delemon"
+    },
+    "139": {
+        "categoria3": "Limpia Alfombra",
+        "marca": "Delhi"
+    },
+    "140": {
+        "categoria3": "Limpia muebles y metales",
+        "marca": "Delicia"
+    },
+    "141": {
+        "categoria3": "Limpia vidrios",
+        "marca": "Delverde"
+    },
+    "142": {
+        "categoria3": "Limpiador adhesivo para inodoros",
+        "marca": "Dermaglos"
+    },
+    "143": {
+        "categoria3": null,
+        "marca": "Dermo-Expertise"
+    },
+    "144": {
+        "categoria3": "Limpiador de Cuero y Gamuza",
+        "marca": "Dettol Espadol"
+    },
+    "145": {
+        "categoria3": "Limpiador de horno",
+        "marca": "Dfiesta"
+    },
+    "146": {
+        "categoria3": "Limpiador Liquido ",
+        "marca": "Dharam Singh"
+    },
+    "147": {
+        "categoria3": "Limpiador para baño",
+        "marca": "Domino"
+    },
+    "148": {
+        "categoria3": "Limpiador para Cocina",
+        "marca": "Don Felipe"
+    },
+    "149": {
+        "categoria3": "Liquido destapa cañerias",
+        "marca": "Don Italo"
+    },
+    "150": {
+        "categoria3": "Locion",
+        "marca": "Doritos"
+    },
+    "151": {
+        "categoria3": "Locion anti mosquito",
+        "marca": "Dos Anclas"
+    },
+    "152": {
+        "categoria3": "Lociones",
+        "marca": "Dos Hermanos"
+    },
+    "153": {
+        "categoria3": "Mani",
+        "marca": "Dove"
+    },
+    "154": {
+        "categoria3": "Manteca",
+        "marca": "Drive"
+    },
+    "155": {
+        "categoria3": "Margarina",
+        "marca": "Duc "
+    },
+    "156": {
+        "categoria3": "Mate Cocido",
+        "marca": "Dulri"
+    },
+    "157": {
+        "categoria3": "Mayonesa",
+        "marca": "Durban"
+    },
+    "158": {
+        "categoria3": "Mermeladas",
+        "marca": "Echo"
+    },
+    "159": {
+        "categoria3": "Miel",
+        "marca": "Eco de los Andes"
+    },
+    "160": {
+        "categoria3": "Mostaza",
+        "marca": "Egran"
+    },
+    "161": {
+        "categoria3": "Mousse",
+        "marca": "El Bolson"
+    },
+    "162": {
+        "categoria3": "Oleos",
+        "marca": "El Brocal"
+    },
+    "163": {
+        "categoria3": "Otros Postres",
+        "marca": "El Litoral"
+    },
+    "164": {
+        "categoria3": "Paños",
+        "marca": "Elvive"
+    },
+    "165": {
+        "categoria3": "Palitos de maiz",
+        "marca": "Emeth"
+    },
+    "166": {
+        "categoria3": "Palitos salados",
+        "marca": "Equalsweet"
+    },
+    "167": {
+        "categoria3": "Pan Rallado",
+        "marca": "Espadol"
+    },
+    "168": {
+        "categoria3": "Pan Rebozadores",
+        "marca": "Estio"
+    },
+    "169": {
+        "categoria3": "Papas fritas",
+        "marca": "Estrella"
+    },
+    "170": {
+        "categoria3": "Pastas Dentales",
+        "marca": "Etiquet"
+    },
+    "171": {
+        "categoria3": "Pastas Listas",
+        "marca": "Evian"
+    },
+    "172": {
+        "categoria3": "Pastas Rellenas",
+        "marca": "Exquisita"
+    },
+    "173": {
+        "categoria3": "Pediculicidas",
+        "marca": "Familia Zuccardi"
+    },
+    "174": {
+        "categoria3": "Perfumantes para ropa",
+        "marca": "Fanacoa"
+    },
+    "175": {
+        "categoria3": "Pisos",
+        "marca": "Fanta"
+    },
+    "176": {
+        "categoria3": "Pochoclos",
+        "marca": "Favinco"
+    },
+    "177": {
+        "categoria3": "Polvo para hornear",
+        "marca": "Favorita"
+    },
+    "178": {
+        "categoria3": "Polvos para hornear",
+        "marca": "Fermipan"
+    },
+    "179": {
+        "categoria3": "Post solar",
+        "marca": "Fibra Granix"
+    },
+    "180": {
+        "categoria3": "Postres",
+        "marca": "Field Day"
+    },
+    "181": {
+        "categoria3": "Premezclas",
+        "marca": "Finish"
+    },
+    "182": {
+        "categoria3": "Protector solar",
+        "marca": "Finisterre"
+    },
+    "183": {
+        "categoria3": "Protectores Diarios",
+        "marca": "Fitness"
+    },
+    "184": {
+        "categoria3": "Protectores mamarios",
+        "marca": "Fix"
+    },
+    "185": {
+        "categoria3": "Pure Instantaneo",
+        "marca": "Florida"
+    },
+    "186": {
+        "categoria3": "Queso Crema",
+        "marca": "Fragata "
+    },
+    "187": {
+        "categoria3": "Queso untable",
+        "marca": "Franero"
+    },
+    "188": {
+        "categoria3": "Quita esmalte",
+        "marca": "Fritolim"
+    },
+    "189": {
+        "categoria3": "Quitamanchas",
+        "marca": "Froot Loops"
+    },
+    "190": {
+        "categoria3": "Repelente de insectos",
+        "marca": "Frutas del Sur"
+    },
+    "191": {
+        "categoria3": "Ricota",
+        "marca": "Fuze Tea"
+    },
+    "192": {
+        "categoria3": "Risotto",
+        "marca": "Gallo"
+    },
+    "193": {
+        "categoria3": "Saborizante",
+        "marca": "Garofalo"
+    },
+    "194": {
+        "categoria3": "Sal",
+        "marca": "Gatorade"
+    },
+    "195": {
+        "categoria3": "Salsa Criolla",
+        "marca": "Genser"
+    },
+    "196": {
+        "categoria3": "Salsa de Soja",
+        "marca": "Gentleman"
+    },
+    "197": {
+        "categoria3": "Salsa en polvo",
+        "marca": "Giacomo"
+    },
+    "198": {
+        "categoria3": "Salsa Golf",
+        "marca": "Gigante"
+    },
+    "199": {
+        "categoria3": "Salsa Inlgesa",
+        "marca": "Gillette"
+    },
+    "200": {
+        "categoria3": "Salsas",
+        "marca": "Glaciar"
+    },
+    "201": {
+        "categoria3": "Salsas de mani",
+        "marca": "Glade"
+    },
+    "202": {
+        "categoria3": "Salsas Frias",
+        "marca": "Glo-Cot"
+    },
+    "203": {
+        "categoria3": "Shampoo ",
+        "marca": "Godet"
+    },
+    "204": {
+        "categoria3": "Shampoo para Bebes",
+        "marca": "Gomes da costa"
+    },
+    "205": {
+        "categoria3": "Snacks",
+        "marca": "Gran Federal"
+    },
+    "206": {
+        "categoria3": "Soda",
+        "marca": "Granby"
+    },
+    "207": {
+        "categoria3": "Sopas Crema",
+        "marca": "Granix"
+    },
+    "208": {
+        "categoria3": "Sopas Instantaneas",
+        "marca": "Granola 3 Arroyos"
+    },
+    "209": {
+        "categoria3": "Sopas Listas",
+        "marca": "Green Hills"
+    },
+    "210": {
+        "categoria3": "Sopas Tradicionales",
+        "marca": "Griego"
+    },
+    "211": {
+        "categoria3": "Spray para cabellos",
+        "marca": "Gum"
+    },
+    "212": {
+        "categoria3": "Spray para peinar",
+        "marca": "H2O"
+    },
+    "213": {
+        "categoria3": "Suavizante para ropa",
+        "marca": "Harpic"
+    },
+    "214": {
+        "categoria3": "Tabasco",
+        "marca": "Haze"
+    },
+    "215": {
+        "categoria3": "Talco Pedico",
+        "marca": "Head and Shoulders"
+    },
+    "216": {
+        "categoria3": "Te Aromatico",
+        "marca": "Heinz"
+    },
+    "217": {
+        "categoria3": "Te Clasico",
+        "marca": "Hellmanns"
+    },
+    "218": {
+        "categoria3": "Test",
+        "marca": "Herbal Essences"
+    },
+    "219": {
+        "categoria3": "Toallitas desmaquillantes",
+        "marca": "Hileret"
+    },
+    "220": {
+        "categoria3": "Toallitas femeninas",
+        "marca": "Hinds"
+    },
+    "221": {
+        "categoria3": "Toallitas humedas",
+        "marca": "Ideal"
+    },
+    "222": {
+        "categoria3": "Tortas",
+        "marca": "Illy"
+    },
+    "223": {
+        "categoria3": "Tratamientos Capilares",
+        "marca": "Impulse"
+    },
+    "224": {
+        "categoria3": "Vinagre de alcohol",
+        "marca": "Inalpa"
+    },
+    "225": {
+        "categoria3": "Vinagre de Manzana",
+        "marca": "Inca"
+    },
+    "226": {
+        "categoria3": "Vinagre de Vino",
+        "marca": "Indalo"
+    },
+    "227": {
+        "categoria3": "Vinagreta",
+        "marca": "Inentero"
+    },
+    "228": {
+        "categoria3": "Vitina",
+        "marca": "Inti Zen"
+    },
+    "229": {
+        "categoria3": "Yerba Mate",
+        "marca": "Ivess"
+    },
+    "230": {
+        "categoria3": "Yogur",
+        "marca": "Jandaia"
+    },
+    "231": {
+        "categoria3": "Yogur Bebible",
+        "marca": "Johnson Baby"
+    },
+    "232": {
+        "categoria3": "Yogur con Cereales",
+        "marca": "Juliana Lopez May"
+    },
+    "233": {
+        "categoria3": "Yogur con frutas",
+        "marca": "Kapac"
+    },
+    "234": {
+        "marca": "KesBun"
+    },
+    "235": {
+        "marca": "Kin"
+    },
+    "236": {
+        "marca": "Klaro"
+    },
+    "237": {
+        "marca": "Knorr"
+    },
+    "238": {
+        "marca": "Kokki"
+    },
+    "239": {
+        "marca": "Koleston"
+    },
+    "240": {
+        "marca": "Kolynos"
+    },
+    "241": {
+        "marca": "Kontiki"
+    },
+    "242": {
+        "marca": "Korn Flakes"
+    },
+    "243": {
+        "marca": "Kotex"
+    },
+    "244": {
+        "marca": "Krach-Itos"
+    },
+    "245": {
+        "marca": "Krol"
+    },
+    "246": {
+        "marca": "La Banda"
+    },
+    "247": {
+        "marca": "La Blanca"
+    },
+    "248": {
+        "marca": "La Campagnola"
+    },
+    "249": {
+        "marca": "La Campagnola BC"
+    },
+    "250": {
+        "marca": "La Costeña"
+    },
+    "251": {
+        "marca": null
+    },
+    "252": {
+        "marca": "La Cumbresita"
+    },
+    "253": {
+        "marca": "La Farmaco"
+    },
+    "254": {
+        "marca": "La Joya"
+    },
+    "255": {
+        "marca": "La Merced"
+    },
+    "256": {
+        "marca": "La Mere Michele"
+    },
+    "257": {
+        "marca": "La Morenita"
+    },
+    "258": {
+        "marca": "La Negra"
+    },
+    "259": {
+        "marca": "La Parmesana"
+    },
+    "260": {
+        "marca": "La Pataia"
+    },
+    "261": {
+        "marca": "La Paulina"
+    },
+    "262": {
+        "marca": "La Planta de Cafe"
+    },
+    "263": {
+        "marca": "La Primera"
+    },
+    "264": {
+        "marca": "La Salamandra"
+    },
+    "265": {
+        "marca": "La Serenisima"
+    },
+    "266": {
+        "marca": "La Suipachense"
+    },
+    "267": {
+        "marca": "La Toscana"
+    },
+    "268": {
+        "marca": "La Tranquera"
+    },
+    "269": {
+        "marca": "La Vieja"
+    },
+    "270": {
+        "marca": "La virginia"
+    },
+    "271": {
+        "marca": "La Virginia Kalma"
+    },
+    "272": {
+        "marca": "Ladysoft"
+    },
+    "273": {
+        "marca": null
+    },
+    "274": {
+        "marca": "Lavazza"
+    },
+    "275": {
+        "marca": "Lays"
+    },
+    "276": {
+        "marca": "Ledesma"
+    },
+    "277": {
+        "marca": "Lee Kum Kee"
+    },
+    "278": {
+        "marca": "Legitimo"
+    },
+    "279": {
+        "marca": "Levite"
+    },
+    "280": {
+        "marca": "Lifebuoy"
+    },
+    "281": {
+        "marca": "Limol"
+    },
+    "282": {
+        "marca": "Lina"
+    },
+    "283": {
+        "marca": "Lipton"
+    },
+    "284": {
+        "marca": "Lira"
+    },
+    "285": {
+        "marca": "Listerine"
+    },
+    "286": {
+        "marca": "Liv"
+    },
+    "287": {
+        "marca": "Livra"
+    },
+    "288": {
+        "marca": "Lord Cheseline"
+    },
+    "289": {
+        "marca": "LOreal"
+    },
+    "290": {
+        "marca": "Lucchetti"
+    },
+    "291": {
+        "marca": "Lux"
+    },
+    "292": {
+        "marca": "Lysoform"
+    },
+    "293": {
+        "marca": "Maestro Panadero"
+    },
+    "294": {
+        "marca": "Maggi"
+    },
+    "295": {
+        "marca": "Magistral"
+    },
+    "296": {
+        "marca": "Magna"
+    },
+    "297": {
+        "marca": "Maille"
+    },
+    "298": {
+        "marca": "Maizena"
+    },
+    "299": {
+        "marca": "Mama Cocina"
+    },
+    "300": {
+        "marca": "Mamina"
+    },
+    "301": {
+        "marca": "Manera"
+    },
+    "302": {
+        "marca": "Manty"
+    },
+    "303": {
+        "marca": "Mapa"
+    },
+    "304": {
+        "marca": "Mar de las Nieves"
+    },
+    "305": {
+        "marca": "Margadan"
+    },
+    "306": {
+        "marca": "Masseube"
+    },
+    "307": {
+        "marca": "Matarazzo"
+    },
+    "308": {
+        "marca": "Max"
+    },
+    "309": {
+        "marca": "Mayoliva"
+    },
+    "310": {
+        "marca": "Mazola"
+    },
+    "311": {
+        "marca": "Melilla"
+    },
+    "312": {
+        "marca": "Mendicrim"
+    },
+    "313": {
+        "marca": "Menoyo"
+    },
+    "314": {
+        "marca": "Milena"
+    },
+    "315": {
+        "marca": "Milkaut"
+    },
+    "316": {
+        "marca": "Minerva"
+    },
+    "317": {
+        "marca": "Mirinda"
+    },
+    "318": {
+        "marca": "Mision Natural"
+    },
+    "319": {
+        "marca": "Mister Food"
+    },
+    "320": {
+        "marca": "Mito Espresso"
+    },
+    "321": {
+        "marca": "Mix Cereal 3 Arroyos"
+    },
+    "322": {
+        "marca": "Mix Tropical 3 Arroyos"
+    },
+    "323": {
+        "marca": "Mocoreta"
+    },
+    "324": {
+        "marca": "Mogul"
+    },
+    "325": {
+        "marca": "Molinos Ala"
+    },
+    "326": {
+        "marca": "Molto"
+    },
+    "327": {
+        "marca": "Monferrato"
+    },
+    "328": {
+        "marca": "Monini"
+    },
+    "329": {
+        "marca": "Monte Alto"
+    },
+    "330": {
+        "marca": "Mr Musculo"
+    },
+    "331": {
+        "marca": "Nan"
+    },
+    "332": {
+        "marca": null
+    },
+    "333": {
+        "marca": "Natura"
+    },
+    "334": {
+        "marca": "Natural Sur"
+    },
+    "335": {
+        "marca": "Nereida"
+    },
+    "336": {
+        "marca": "Nescafe"
+    },
+    "337": {
+        "marca": "Nescafe Dolce Gusto"
+    },
+    "338": {
+        "marca": "Nescao"
+    },
+    "339": {
+        "marca": "Nespresso"
+    },
+    "340": {
+        "marca": "Nesquik"
+    },
+    "341": {
+        "marca": "Nestle"
+    },
+    "342": {
+        "marca": "Nestum"
+    },
+    "343": {
+        "marca": "Neutrogena"
+    },
+    "344": {
+        "marca": "Nh3"
+    },
+    "345": {
+        "marca": "Nidina"
+    },
+    "346": {
+        "marca": "Nido"
+    },
+    "347": {
+        "marca": "Nivea"
+    },
+    "348": {
+        "marca": "Nobleza Gaucha"
+    },
+    "349": {
+        "marca": "Noc"
+    },
+    "350": {
+        "marca": "Noel"
+    },
+    "351": {
+        "marca": "Nosotras"
+    },
+    "352": {
+        "marca": "Nucete"
+    },
+    "353": {
+        "marca": "Nuk"
+    },
+    "354": {
+        "marca": "Nutella"
+    },
+    "355": {
+        "marca": "Nutregal"
+    },
+    "356": {
+        "marca": "Nutricia Bago"
+    },
+    "357": {
+        "marca": "Nutrilon"
+    },
+    "358": {
+        "marca": "NutryBaby"
+    },
+    "359": {
+        "marca": "Odol"
+    },
+    "360": {
+        "marca": "Off"
+    },
+    "361": {
+        "marca": "Old Spice"
+    },
+    "362": {
+        "marca": "Olikids"
+    },
+    "363": {
+        "marca": "Oliovita"
+    },
+    "364": {
+        "marca": "Oral-B"
+    },
+    "365": {
+        "marca": "Orieta"
+    },
+    "366": {
+        "marca": "Palmolive"
+    },
+    "367": {
+        "marca": "Pampagourmet"
+    },
+    "368": {
+        "marca": "Pantene"
+    },
+    "369": {
+        "marca": "Panters"
+    },
+    "370": {
+        "marca": "Paradontax"
+    },
+    "371": {
+        "marca": "Paso de los toros"
+    },
+    "372": {
+        "marca": "Patagonia Berries"
+    },
+    "373": {
+        "marca": "Patagonia Finest"
+    },
+    "374": {
+        "marca": "Patito"
+    },
+    "375": {
+        "marca": "Patrichs"
+    },
+    "376": {
+        "marca": "Pececito"
+    },
+    "377": {
+        "marca": "Pehuamar"
+    },
+    "378": {
+        "marca": "Pep"
+    },
+    "379": {
+        "marca": "Pepsi "
+    },
+    "380": {
+        "marca": "Perrier"
+    },
+    "381": {
+        "marca": "Pinoluz"
+    },
+    "382": {
+        "marca": "Playadito"
+    },
+    "383": {
+        "marca": "Plomero"
+    },
+    "384": {
+        "marca": "Plumita"
+    },
+    "385": {
+        "marca": "Plusbelle"
+    },
+    "386": {
+        "marca": "Poett"
+    },
+    "387": {
+        "marca": "Poise"
+    },
+    "388": {
+        "marca": "Polycera"
+    },
+    "389": {
+        "marca": "Poncho Negro"
+    },
+    "390": {
+        "marca": "Ponds"
+    },
+    "391": {
+        "marca": "Poosh Yahoo"
+    },
+    "392": {
+        "marca": "Pop Korn"
+    },
+    "393": {
+        "marca": "Popcorn"
+    },
+    "394": {
+        "marca": "Powerade"
+    },
+    "395": {
+        "marca": "Preferido"
+    },
+    "396": {
+        "marca": "Prego"
+    },
+    "397": {
+        "marca": "Pringles"
+    },
+    "398": {
+        "marca": "Pritty "
+    },
+    "399": {
+        "marca": "Pro"
+    },
+    "400": {
+        "marca": "Procenex"
+    },
+    "401": {
+        "marca": "Protex"
+    },
+    "402": {
+        "marca": "Quaker"
+    },
+    "403": {
+        "marca": "Querubin"
+    },
+    "404": {
+        "marca": "Queruclor"
+    },
+    "405": {
+        "marca": "Raid"
+    },
+    "406": {
+        "marca": "Ranchera"
+    },
+    "407": {
+        "marca": "Regidiet"
+    },
+    "408": {
+        "marca": "Rex"
+    },
+    "409": {
+        "marca": "Rexalt"
+    },
+    "410": {
+        "marca": "Rexona"
+    },
+    "411": {
+        "marca": "Rexona Efficient"
+    },
+    "412": {
+        "marca": "Ri-K"
+    },
+    "413": {
+        "marca": "Ricolsec"
+    },
+    "414": {
+        "marca": "Robin"
+    },
+    "415": {
+        "marca": "Robinson Crusoe"
+    },
+    "416": {
+        "marca": "Romance"
+    },
+    "417": {
+        "marca": "Rosamonte"
+    },
+    "418": {
+        "marca": "Royal"
+    },
+    "419": {
+        "marca": "Saint Dalfour"
+    },
+    "420": {
+        "marca": "Saint Gottard"
+    },
+    "421": {
+        "marca": "Saldan"
+    },
+    "422": {
+        "marca": "Salsati"
+    },
+    "423": {
+        "marca": "Salsati - La Campagnola"
+    },
+    "424": {
+        "marca": "San Giorgio"
+    },
+    "425": {
+        "marca": "San Ignacio"
+    },
+    "426": {
+        "marca": "San Pellegrino"
+    },
+    "427": {
+        "marca": "San Regim"
+    },
+    "428": {
+        "marca": "Sancor"
+    },
+    "429": {
+        "marca": "Sancor Bio"
+    },
+    "430": {
+        "marca": "Sancorito"
+    },
+    "431": {
+        "marca": "Santa Brigida"
+    },
+    "432": {
+        "marca": "Savora"
+    },
+    "433": {
+        "marca": "Schatzi"
+    },
+    "434": {
+        "marca": "Scholl"
+    },
+    "435": {
+        "marca": "Schweppes"
+    },
+    "436": {
+        "marca": "Scotti"
+    },
+    "437": {
+        "marca": "Sedal"
+    },
+    "438": {
+        "marca": "Segafredo Zanetti"
+    },
+    "439": {
+        "marca": "Senseo"
+    },
+    "440": {
+        "marca": "Sensodyne"
+    },
+    "441": {
+        "marca": "Ser"
+    },
+    "442": {
+        "marca": "Serena"
+    },
+    "443": {
+        "marca": "Serenito"
+    },
+    "444": {
+        "marca": "Shimy"
+    },
+    "445": {
+        "marca": "Si Diet"
+    },
+    "446": {
+        "marca": "Siempre Libre"
+    },
+    "447": {
+        "marca": "Sierra de los padres"
+    },
+    "448": {
+        "marca": "Skip"
+    },
+    "449": {
+        "marca": "Sococo"
+    },
+    "450": {
+        "marca": "Soyarroz"
+    },
+    "451": {
+        "marca": "Soz"
+    },
+    "452": {
+        "marca": "Speed"
+    },
+    "453": {
+        "marca": "Sprite"
+    },
+    "454": {
+        "marca": "Stop Calory"
+    },
+    "455": {
+        "marca": "Suave"
+    },
+    "456": {
+        "marca": "Sucaryl"
+    },
+    "457": {
+        "marca": "Suiza"
+    },
+    "458": {
+        "marca": "Sun Progress"
+    },
+    "459": {
+        "marca": "Susarelli"
+    },
+    "460": {
+        "marca": "Svelty"
+    },
+    "461": {
+        "marca": "Sweet Nature"
+    },
+    "462": {
+        "marca": "Swift"
+    },
+    "463": {
+        "marca": "Tabasco"
+    },
+    "464": {
+        "marca": "Taragui"
+    },
+    "465": {
+        "marca": "Task"
+    },
+    "466": {
+        "marca": "Tau Delta"
+    },
+    "467": {
+        "marca": "Tempo"
+    },
+    "468": {
+        "marca": "Terma"
+    },
+    "469": {
+        "marca": "Terrabusi"
+    },
+    "470": {
+        "marca": "Test"
+    },
+    "471": {
+        "marca": "Tholem"
+    },
+    "472": {
+        "marca": "Tibaldi"
+    },
+    "473": {
+        "marca": "Tibaldi Sweet"
+    },
+    "474": {
+        "marca": "Toddy"
+    },
+    "475": {
+        "marca": "Tregar"
+    },
+    "476": {
+        "marca": "Trenet"
+    },
+    "477": {
+        "marca": "Tres Patitos"
+    },
+    "478": {
+        "marca": "Tresemme"
+    },
+    "479": {
+        "marca": "Trix"
+    },
+    "480": {
+        "marca": "Tropicana"
+    },
+    "481": {
+        "marca": "Tuy"
+    },
+    "482": {
+        "marca": "Twinings"
+    },
+    "483": {
+        "marca": "Twistos"
+    },
+    "484": {
+        "marca": "Union"
+    },
+    "485": {
+        "marca": "V"
+    },
+    "486": {
+        "marca": "V8"
+    },
+    "487": {
+        "marca": "Vanish"
+    },
+    "488": {
+        "marca": "Vasenol"
+    },
+    "489": {
+        "marca": "Vea"
+    },
+    "490": {
+        "marca": "Venier"
+    },
+    "491": {
+        "marca": "Verdeflor"
+    },
+    "492": {
+        "marca": "Veritas"
+    },
+    "493": {
+        "marca": "Veronica"
+    },
+    "494": {
+        "marca": "Vicente"
+    },
+    "495": {
+        "marca": "Vicentin"
+    },
+    "496": {
+        "marca": "Vidacol"
+    },
+    "497": {
+        "marca": "Vileda"
+    },
+    "498": {
+        "marca": "Villa del Sur"
+    },
+    "499": {
+        "marca": "Villavicencio"
+    },
+    "500": {
+        "marca": "Vim"
+    },
+    "501": {
+        "marca": "Virgin Isalnd"
+    },
+    "502": {
+        "marca": "Virulana"
+    },
+    "503": {
+        "marca": "Vital"
+    },
+    "504": {
+        "marca": "Vitamin "
+    },
+    "505": {
+        "marca": "Vivere"
+    },
+    "506": {
+        "marca": "Vizzolini"
+    },
+    "507": {
+        "marca": "Vo5"
+    },
+    "508": {
+        "marca": "Voiello"
+    },
+    "509": {
+        "marca": "Wassington"
+    },
+    "510": {
+        "marca": "Wilde"
+    },
+    "511": {
+        "marca": "Woolite"
+    },
+    "512": {
+        "marca": "Yogs"
+    },
+    "513": {
+        "marca": "Yogurisimo"
+    },
+    "514": {
+        "marca": "Zentis"
+    },
+    "515": {
+        "marca": "Zorro"
+    },
+    "516": {
+        "marca": "Zucaritas"
+    },
+    "517": {
+        "marca": "Zuelo"
+    },
+    "sql": "SELECT marca FROM _bepots_site_productos GROUP BY marca order by marca ASC",
+    "aviso": "si",
+    "vueltas": 5,
+    "vueltasCategoria3": 234,
+    "vueltasEnvase": 37,
+    "vueltasMarca": 518
+}
