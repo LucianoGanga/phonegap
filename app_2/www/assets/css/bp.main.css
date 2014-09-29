@@ -16,7 +16,7 @@
 #preloader {
     background: transparent url("../images/preloader.gif") no-repeat;
     margin: 0 auto;
-    display: block;
+    display: none;
     height: 6px;
     width: 100%;
     position: absolute;
@@ -26,6 +26,10 @@
 }
 
 #productsList {
+}
+
+#productsList .productItem {
+    display: block !important;
 }
 #productsList .productItem .productImage {
     background: white url("../images/no-image.png") no-repeat;
