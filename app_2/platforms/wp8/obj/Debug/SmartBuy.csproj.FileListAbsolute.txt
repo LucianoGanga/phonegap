@@ -1,0 +1,17 @@
+E:\Dropbox\projects\www\phonegap\app_2\platforms\wp8\Bin\Debug\ApplicationIcon.png
+E:\Dropbox\projects\www\phonegap\app_2\platforms\wp8\Bin\Debug\Background.png
+E:\Dropbox\projects\www\phonegap\app_2\platforms\wp8\Bin\Debug\Aplicacion2.dll
+E:\Dropbox\projects\www\phonegap\app_2\platforms\wp8\Bin\Debug\Aplicacion2.pdb
+E:\Dropbox\projects\www\phonegap\app_2\platforms\wp8\Bin\Debug\AppManifest.xaml
+E:\Dropbox\projects\www\phonegap\app_2\platforms\wp8\Bin\Debug\Properties\WMAppManifest.xml
+E:\Dropbox\projects\www\phonegap\app_2\platforms\wp8\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap
+E:\Dropbox\projects\www\phonegap\app_2\platforms\wp8\Bin\Debug\zxing.wp8.0.dll
+E:\Dropbox\projects\www\phonegap\app_2\platforms\wp8\obj\Debug\SmartBuy.csprojResolveAssemblyReference.cache
+E:\Dropbox\projects\www\phonegap\app_2\platforms\wp8\obj\Debug\App.g.cs
+E:\Dropbox\projects\www\phonegap\app_2\platforms\wp8\obj\Debug\Plugins\com.phonegap.plugins.barcodescanner\BarcodeScannerUI.g.cs
+E:\Dropbox\projects\www\phonegap\app_2\platforms\wp8\obj\Debug\cordovalib\CordovaView.g.cs
+E:\Dropbox\projects\www\phonegap\app_2\platforms\wp8\obj\Debug\MainPage.g.cs
+E:\Dropbox\projects\www\phonegap\app_2\platforms\wp8\obj\Debug\Aplicacion2.g.resources
+E:\Dropbox\projects\www\phonegap\app_2\platforms\wp8\obj\Debug\Aplicacion2.dll
+E:\Dropbox\projects\www\phonegap\app_2\platforms\wp8\obj\Debug\Aplicacion2.pdb
+E:\Dropbox\projects\www\phonegap\app_2\platforms\wp8\obj\Debug\XapCacheFile.xml

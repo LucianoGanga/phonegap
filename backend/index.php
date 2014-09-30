@@ -52,49 +52,93 @@ if (get("method") && get("method") === "getProductsList") {
 if (get("method") && get("method") === "searchProductByText") {
     $responseArray = array();
     $text = get("text");
-    $searchResult = $bp->searchProductByText($text);
-    
-    $responseArray["status"] = $searchResult["status"];
-    
-    if ($searchResult["status"] === "success") {
-        $responseArray["data"] = $searchResult["data"];
+    $queryResult = $bp->searchProductByText($text);
+
+    $responseArray["status"] = $queryResult["status"];
+
+    if ($queryResult["status"] === "success") {
+        $responseArray["data"] = $queryResult["data"];
     }
 
     sendResponse($responseArray);
 }
 
 
-/*
- * Metodo: getConfigData
- * Parametros: -
- */
-if (get("method") && get("method") === "getProductInfo") {
-    echo $upcCode = get("upcCode");
 
-    $bp->getProductInfo($upcCode);
-    echo json_encode($configData);
+/*
+ * Metodo: getProductByCode
+ * Parametros: 
+ *      $_GET["code"]
+ */
+if (get("method") && get("method") === "getProductByCode") {
+    $code = get("code");
+
+    $queryResult = $bp->getProductByCode($code);
+
+    $responseArray["status"] = $queryResult["status"];
+
+    if ($queryResult["status"] === "success") {
+        $responseArray["data"] = $queryResult["data"];
+    }
+
+    sendResponse($responseArray);
 }
 
 /*
- * Metodo: newClient
+ * Metodo: getUpcDatabaseCodeInfo
  * Parametros: 
- *      $_GET["data"]
- *      $_GET["clientName"]
+ *      $_GET["code"]
  */
-if (get("method") && get("method") === "newClient") {
-    $clientData = json_decode(get("data"), true);
-    $clientName = get("clientName");
-    $arr = array();
-    if ($clientName !== "") {
-        // Actualizo el JSON que hace de base de datos
-        $bp->modifyClientsList("add", $clientName, $clientData);
-        // Genero el YML para este cliente
-        $bp->processClientsYml("add", $clientName, $clientData);
-        $responseArray["status"] = "success";
-    } else {
-        $arr["status"] = "error";
-    }
-    echo json_encode($arr);
+if (get("method") && get("method") === "getUpcDatabaseCodeInfo") {
+    $code = get("code");
+
+    $queryResult = $bp->getUpcDatabaseCodeInfo($code);
+
+    sendResponse($queryResult);
+}
+
+/*
+ * Metodo: getCartData
+ * Parametros: 
+ *      $_GET["clientId"]
+ */
+if (get("method") && get("method") === "getCartData") {
+    $clientId = get("clientId");
+
+    $queryResult = $bp->getCartData($clientId);
+    
+    $responseArray = array(
+        "status" => "success",
+        "data" => $queryResult
+    );
+
+    sendResponse($responseArray);
+}
+
+/*
+ * Metodo: getCartItems
+ * Parametros: 
+ *      $_GET["clientId"]
+ */
+if (get("method") && get("method") === "getCartItems") {
+    $clientId = get("clientId");
+
+    $queryResult = $bp->getCartItems($clientId);
+
+    sendResponse($queryResult);
+}
+
+/*
+ * Metodo: getCartItemsQty
+ * Parametros: 
+ *      $_GET["clientId"]
+ */
+if (get("method") && get("method") === "getCartItemsQty") {
+    $clientId = get("clientId");
+
+    $queryResult = $bp->getCartItemsQty($clientId);
+
+    sendResponse($queryResult);
 }
 
 exit();

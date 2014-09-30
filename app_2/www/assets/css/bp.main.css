@@ -28,12 +28,27 @@
 #productsList {
 }
 
-#productsList .productItem {
+.productItem {
     display: block !important;
 }
-#productsList .productItem .productImage {
+.productItem .productImage {
     background: white url("../images/no-image.png") no-repeat;
     background-size:contain;
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+.iconCounter {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    font-size: 11px;
+    line-height: 13px;
+    font-weight: normal;
+    background: #FF0000;
+    z-index: 9;
+    right: 6px;
+    top: 5px;
+    color: #FFFFFF;
+    text-indent: 0px;
 }

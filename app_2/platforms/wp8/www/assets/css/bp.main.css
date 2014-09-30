@@ -1,0 +1,39 @@
+/* 
+ *  Document   : bp.main.less
+ *  Created on : 27/09/2014, 21:56
+ *  Author     : Luciano Ganga
+ *  Description:
+ *      Main styles for the app
+ */
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+.templatesCtn {
+    display: none;
+}
+
+#preloader {
+    background: transparent url("../images/preloader.gif") no-repeat;
+    margin: 0 auto;
+    display: none;
+    height: 6px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 45%;
+    z-index: 9999;
+}
+
+#productsList {
+}
+
+#productsList .productItem {
+    display: block !important;
+}
+#productsList .productItem .productImage {
+    background: white url("../images/no-image.png") no-repeat;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

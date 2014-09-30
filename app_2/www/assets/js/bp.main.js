@@ -1,5 +1,6 @@
 /*
  */
+var clientId = "client1";
 var app = {
     // Application Constructor
     initialize: function () {
@@ -21,15 +22,65 @@ var app = {
             this.onDeviceReady();
         else
             document.addEventListener('deviceready', this.onDeviceReady, false);
-        document.getElementById('scan').addEventListener('click', this.scan, false);
-        document.getElementById('encode').addEventListener('click', this.encode, false);
     },
     // deviceready Event Handler
     //
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function () {
+        app.mediator = new Mediator();
+        app.channelsSubscribers();
+        app.prepareLocalStore();
         app.receivedEvent('productsList');
+    },
+    channelsSubscribers: function () {
+        app.mediator.subscribe("cart:itemsQty", function (itemsQty) {
+            // Contador de items
+            $(".bp-cartItemsQty").html(itemsQty);
+        });
+    },
+    makeProductsList: function (data) {
+        var productData, productItem;
+        var response = {
+            "count": 0,
+            "html": ""
+        };
+        for (var product in data) {
+            if (data.hasOwnProperty(product)) {
+                response["count"]++;
+                productData = data[product];
+                productItem = app.getTemplate("productItem")
+                        .attr("data-product", JSON.stringify(productData))
+                        .find(".bp-title").html(productData.categoria3).end()
+                        .find(".bp-envase").html(productData.envase).end()
+                        .find(".bp-categoria1").html(productData.categoria1).end()
+                        .find(".bp-brand").html(productData.marca).end();
+                // Si el producto tiene imagen, la muestro
+                if (productData.imagen !== "sin imagen")
+                    productItem.find(".bp-image").attr("src", app.defaultParams.imagesUrl + productData.imagen).end();
+
+                response["html"] += $('<div>').append(productItem).html();
+            }
+        }
+        return response;
+    },
+    prepareLocalStore: function () {
+        app.clientData = {};
+
+        /*
+         * Guardo localmente los datos del carro de compras
+         */
+        var cartItemsCounterAjaxCall = app.ajaxCall("method=getCartData&clientId=" + clientId);
+        cartItemsCounterAjaxCall.done(function (response) {
+            if (response.status === "success")
+                app.clientData["cart"] = response.data;
+            app.mediator.publish("cart:all", app.clientData["cart"]);
+            app.mediator.publish("cart:itemsList", app.clientData["cart"]["itemsList"]);
+            app.mediator.publish("cart:itemsQty", app.clientData["cart"]["itemsQty"]);
+        });
+
+
+
     },
     // Update DOM on a Received Event
     receivedEvent: function (method) {
@@ -97,8 +148,7 @@ var app = {
             async: (typeof options !== "undefined" && typeof options.async !== "undefined") ? options.async : true,
             contentType: 'application/json; charset=UTF-8',
             error: function (xhr, status, error) {
-                var err = eval("(" + xhr.responseText + ")");
-                alert(err.Message);
+                console.log(xhr);
             }
         });
     },
@@ -111,6 +161,18 @@ var app = {
             async: (typeof options !== "undefined" && typeof options.async !== "undefined") ? options.async : true
         });
     },
+    showProductDetail: function (productData) {
+        $("#productDetail")
+                .find(".bp-title").html(productData.categoria3).end()
+                .find(".bp-envase").html(productData.envase).end()
+                .find(".bp-categoria1").html(productData.categoria1).end()
+                .find(".bp-brand").html(productData.marca).end();
+        // Si el producto tiene imagen, la muestro
+        if (productData.imagen !== "sin imagen")
+            $("#productDetail").find(".bp-image").attr("src", app.defaultParams.imagesUrl + productData.imagen).end();
+
+        $.mobile.pageContainer.pagecontainer("change", "#productDetail", {"showLoadMsg": true});
+    },
     scan: function () {
         console.log('scanning');
 
@@ -118,17 +180,14 @@ var app = {
 
         scanner.scan(function (result) {
 
-            alert("We got a barcode\n" +
-                    "Result: " + result.text + "\n" +
-                    "Format: " + result.format + "\n" +
-                    "Cancelled: " + result.cancelled);
+            var barcode = result.text;
 
-            console.log("Scanner result: \n" +
-                    "text: " + result.text + "\n" +
-                    "format: " + result.format + "\n" +
-                    "cancelled: " + result.cancelled + "\n");
-            document.getElementById("info").innerHTML = result.text;
-            console.log(result);
+            var productSearchByTextAjaxCall = app.ajaxCall("method=getProductByCode&code=" + barcode);
+            productSearchByTextAjaxCall.done(function (response) {
+                if (response.status === "success")
+                    app.showProductDetail(response.data);
+            });
+
             /*
              if (args.format == "QR_CODE") {
              window.plugins.childBrowser.showWebPage(args.text, { showLocationBar: false });
@@ -136,7 +195,7 @@ var app = {
              */
 
         }, function (error) {
-            console.log("Scanning failed: ", error);
+            alert("El escaneo de código falló: " + error);
         });
     },
     encode: function () {

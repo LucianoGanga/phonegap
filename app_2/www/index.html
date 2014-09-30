@@ -8,15 +8,18 @@
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="assets/css/bp.main.css" />
         <link rel="stylesheet" type="text/css" href="assets/libs/jquery/css/jquery.mobile.css" />
-        <title>Bepots</title>
+        <title>SmartBuy App</title>
     </head>
     <body>
         <div id="preloader"></div>
         <div data-role="page" id="productsList">
 
             <div data-role="header">
-                <h1>SmartBuy App</h1>
-                <a href="#codeScanner" class="ui-btn-right ui-btn-corner-all ui-btn ui-icon-camera ui-btn-icon-notext ui-shadow" title=" Escanear código " data-form="ui-icon" data-role="button" role="button">Escanear Código</a>
+                <h1>Buscar</h1>
+                <div data-role="controlgroup" data-type="horizontal" data-mini="true" class="ui-btn-right ">
+                    <a href="#myCart" class="bp-cartButton ui-btn-corner-all ui-btn ui-icon-shop ui-btn-icon-notext ui-shadow" title=" Ver carrito " data-form="ui-icon" data-role="button" role="button"><span class="iconCounter bp-cartItemsQty">-</span>Ver carrito</a>
+                    <a class="bp-scanCodeButton ui-btn-corner-all ui-btn ui-icon-tag ui-btn-icon-notext ui-shadow" title=" Escanear código " data-form="ui-icon" data-role="button" role="button">Escanear Código</a>
+                </div>
             </div><!-- /header -->
             <div role="main" class="ui-content">
                 <form class="ui-filterable">
@@ -34,11 +37,41 @@
             </div>
         </div><!-- /page -->
 
+        <div data-role="page" id="myCart">
+
+            <div data-role="header">
+                <h1>Mi lista</h1>
+                <div data-role="controlgroup" data-type="horizontal" data-mini="true" class="ui-btn-left">
+                    <a href="#productsList" class="ui-btn-corner-all ui-btn ui-icon-back ui-btn-icon-notext ui-shadow" title=" Inicio " data-form="ui-icon" data-role="button" role="button"> Inicio </a>
+                </div>
+                <div data-role="controlgroup" data-type="horizontal" data-mini="true" class="ui-btn-right ">
+                    <a href="#myCart" class="bp-cartButton ui-btn-corner-all ui-btn ui-icon-shop ui-btn-icon-notext ui-shadow" title=" Ver carrito " data-form="ui-icon" data-role="button" role="button"><span class="iconCounter bp-cartItemsQty">-</span>Ver carrito</a>
+                    <a class="bp-scanCodeButton ui-btn-corner-all ui-btn ui-icon-tag ui-btn-icon-notext ui-shadow" title=" Escanear código " data-form="ui-icon" data-role="button" role="button">Escanear Código</a>
+                </div>
+            </div><!-- /header -->
+            <div role="main" class="ui-content">
+                <ul id="cartItemsList" data-role="listview" data-inset="true" data-filter="true" data-input="#searchProductByText-input" data-split-icon="plus">
+                </ul>
+                <div data-role="popup" id="addToCart" data-theme="a" data-overlay-theme="b" class="ui-content" style="max-width:340px; padding-bottom:2em;">
+                    <h3>¿Cuántos?</h3>
+                    <input class='bp-productQty' type="text" data-role="spinbox" name="spin" id="spin" value="0" min="0" data-price="8.99" />
+                    <h2>$<span class="bp-totalPrice">0.00</span></h2>
+                    <a data-rel="back" class="bp-addButton ui-shadow ui-btn ui-corner-all ui-btn-b ui-icon-check ui-btn-icon-left ui-btn-inline ui-mini ui-state-disabled">Agregar</a>
+                    <a data-rel="back" class="bp-cancelButton ui-shadow ui-btn ui-corner-all ui-btn-inline ui-mini">Cancel</a>
+                </div>
+            </div>
+        </div><!-- /page -->
+
         <div data-role="page" id="productDetail">
             <div data-role="header">
-                <a href="#productsList" class="ui-btn-left ui-btn-corner-all ui-btn ui-icon-back ui-btn-icon-notext ui-shadow" title=" Inicio " data-form="ui-icon" data-role="button" role="button"> Inicio </a>
-                <h1>Detalle de producto</h1>
-                <a href="#codeScanner" class="ui-btn-right ui-btn-corner-all ui-btn ui-icon-camera ui-btn-icon-notext ui-shadow" title=" Escanear código " data-form="ui-icon" data-role="button" role="button">Escanear Código</a>
+                <div data-role="controlgroup" data-type="horizontal" data-mini="true" class="ui-btn-left">
+                    <a href="#productsList" class="ui-btn-corner-all ui-btn ui-icon-back ui-btn-icon-notext ui-shadow" title=" Inicio " data-form="ui-icon" data-role="button" role="button"> Inicio </a>
+                </div>
+                <h1>Detalle</h1>
+                <div data-role="controlgroup" data-type="horizontal" data-mini="true" class="ui-btn-right ">
+                    <a href="#myCart" class="bp-cartButtonButton ui-btn-corner-all ui-btn ui-icon-shop ui-btn-icon-notext ui-shadow" title=" Ver carrito " data-form="ui-icon" data-role="button" role="button"><span class="iconCounter bp-cartItemsQty">-</span>Ver carrito</a>
+                    <a class="bp-scanCodeButton ui-btn-corner-all ui-btn ui-icon-tag ui-btn-icon-notext ui-shadow" title=" Escanear código " data-form="ui-icon" data-role="button" role="button">Escanear Código</a>
+                </div>
             </div><!-- /header -->
             <div role="main" class="ui-content">
                 <div class="product-details">
@@ -50,17 +83,6 @@
                 <h2>$<span class="bp-totalPrice">0.00</span></h2>
                 <a data-rel="back" class="bp-addButton ui-shadow ui-btn ui-corner-all ui-btn-b ui-icon-check ui-btn-icon-left ui-btn-inline ui-mini ui-state-disabled">Agregar</a>
 
-            </div><!-- /content -->
-        </div><!-- /page -->
-
-        <div data-role="page" id="codeScanner">
-            <div data-role="header">
-                <a href="#productsList" class="ui-btn-left ui-btn-corner-all ui-btn ui-icon-back ui-btn-icon-notext ui-shadow" title=" Inicio " data-form="ui-icon" data-role="button" role="button"> Inicio </a>
-                <h1>Lector de códigos</h1>
-            </div><!-- /header -->
-            <div role="main" class="ui-content">
-                <p><a href="#" class="topcoat-button" id="scan">SCAN</a></p>
-                <p><a href="#" class="topcoat-button" id="encode">ENCODE</a></p>
             </div><!-- /content -->
         </div><!-- /page -->
 
@@ -82,6 +104,7 @@
         <script type="text/javascript" src="assets/libs/jquery/js/jquery.js"></script>
         <script type="text/javascript" src="assets/libs/jquery/js/jquery.mobile.js"></script>
         <script type="text/javascript" src="assets/libs/jquery/plugins/jqm-spinbox.min.js"></script>
+        <script type="text/javascript" src="assets/libs/mediator/mediator.min.js"></script>
         <script type="text/javascript" src="assets/js/bp.main.js"></script>
         <script type="text/javascript" src="assets/js/bp.events.js"></script>
         <script type="text/javascript">

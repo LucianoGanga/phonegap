@@ -21,27 +21,10 @@ $(document).on("pagecreate", "#productsList", function () {
             $ul.listview("refresh");
             var productSearchByTextAjaxCall = app.ajaxCall("method=searchProductByText&text=" + $input.val());
             productSearchByTextAjaxCall.done(function (response) {
-                var productData, productItem;
-                var count = 0;
-                for (var product in response.data) {
-                    if (response.data.hasOwnProperty(product)) {
-                        count++;
-                        productData = response.data[product];
-                        productItem = app.getTemplate("productItem")
-                                .attr("data-product", JSON.stringify(productData))
-                                .find(".bp-title").html(productData.categoria3).end()
-                                .find(".bp-envase").html(productData.envase).end()
-                                .find(".bp-categoria1").html(productData.categoria1).end()
-                                .find(".bp-brand").html(productData.marca).end();
-                        // Si el producto tiene imagen, la muestro
-                        if (productData.imagen !== "sin imagen")
-                            productItem.find(".bp-image").attr("src", app.defaultParams.imagesUrl + productData.imagen).end();
-
-                        html += $('<div>').append(productItem).html();
-                    }
-                }
+                var productsList = app.makeProductsList(response.data);
+                html = productsList["html"];
                 app.preloader("hide");
-                if (count > 0)
+                if (productsList["count"] > 0)
                     $ul.html(html);
                 else
                     $ul.html("Sin resultados.");
@@ -65,24 +48,55 @@ $(document).on("pagecreate", "#productsList", function () {
         $(this).parents("#addToCart").find(".bp-totalPrice").html(total);
     });
 
-    /*
-     * Product Item tap action script
-     */
-    $(document).on("tap", ".bp-productItemLink", function (e) {
-        e.preventDefault();
-        var productData = $(this).parents(".bp-productItem").data("product");
-        $("#productDetail")
-                .find(".bp-title").html(productData.categoria3).end()
-                .find(".bp-envase").html(productData.envase).end()
-                .find(".bp-categoria1").html(productData.categoria1).end()
-                .find(".bp-brand").html(productData.marca).end();
-        // Si el producto tiene imagen, la muestro
-        if (productData.imagen !== "sin imagen")
-            $("#productDetail").find(".bp-image").attr("src", app.defaultParams.imagesUrl + productData.imagen).end();
+});
 
-        $.mobile.pageContainer.pagecontainer("change", "#productDetail", {"showLoadMsg": true});
+/* 
+ * Page: cartList
+ * Description: makes a product list according to the search value
+ */
+$(document).on("pagecreate", "#myCart", function () {
+    app.mediator.subscribe("cart:itemsList", function (itemsList) {
+        var itemsListResult = app.makeProductsList(itemsList);
+        var ulList = $("#cartItemsList");
+        if (itemsListResult["count"] > 0)
+            ulList.html(itemsListResult["html"]);
+        else
+            ulList.html("Su lista está vacía");
+        ulList.listview("refresh");
     });
 });
+
+
+/*
+ * Cart tap action
+ */
+$(document).on("tap", ".bp-cartButton", function (e) {
+    e.preventDefault();
+
+    $.mobile.pageContainer.pagecontainer("change", "#myCart", {"showLoadMsg": true});
+    app.mediator.publish("cart:itemsList", app.clientData["cart"]["itemsList"]);
+    return;
+});
+
+/*
+ * Product Item tap action
+ */
+$(document).on("tap", ".bp-productItemLink", function (e) {
+    e.preventDefault();
+    var productData = $(this).parents(".bp-productItem").data("product");
+    app.showProductDetail(productData);
+    return;
+});
+
+/*
+ * Scan barcode button action
+ */
+$(document).on("tap", ".bp-scanCodeButton", function (e) {
+    e.preventDefault();
+    app.scan();
+    return;
+});
+
 
 
 
